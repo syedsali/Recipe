@@ -1,0 +1,123 @@
+body{
+    background-color: lavender;
+}
+
+nav{
+    font-size: 30px;
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 100px;
+    color: black;
+    text-decoration: none;
+    margin-top: -80px;
+
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right:10px;
+    color: black;
+    position: relative;
+    padding-bottom: 30px;
+    text-decoration: none;
+}
+nav a{
+    color:black;
+    text-decoration:none;
+    font-size: 30px;
+    margin: 5px;
+    padding-top: auto;
+}
+nav a:hover{
+    color: salmon;
+    text-decoration: none;
+}
+hr{
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 3px;
+      
+}
+.first{
+    font-family: 'Philosopher', sans-serif;
+}
+
+.recipename{
+    font-family: 'Italianno', cursive;
+    font-size: 60px;
+}
+.container{
+    float: left;
+}
+.ing{
+    margin-left: 160px;
+    font-family: 'Italianno', cursive;
+    font-size: 70px;
+}
+.ingredients{
+    margin-left: 30px;
+    font-family: 'Acme', sans-serif;
+}
+h3{
+    margin-left: 600px;
+    font-family: 'Italianno', cursive;
+    font-size: 70px;    
+    
+}
+.icons{
+    margin-left: 220px;
+    
+}
+#directions{
+    margin-left: 360px;
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+}
+.footer{
+    margin-left: 650px;
+}
+.foot{
+    margin-left: 370px;
+}
+.pin:hover{
+    margin-right: 8px;
+    padding: 8px;
+}
+.twi:hover{
+    padding: 8px;
+    margin-right: 8px;
+}
+.yelp:hover{
+    padding: 8px;
+    margin-right: 8px;
+    
+}
+.fb:hover{
+    padding: 8px;
+    margin-right: 8px;
+}
+.insta:hover{
+    padding-right: 8px;
+    margin-right: 8px;
+}
+
+
+.logo{
+    position: relative;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes logo {
+    0%{transform: translateX(0px)}
+    50%{transform: translateX(200px)}
+    100%{transform: rotate(345deg)}
+}
